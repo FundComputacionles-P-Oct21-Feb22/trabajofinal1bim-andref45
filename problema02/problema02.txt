@@ -1,0 +1,56 @@
+Algoritmo 
+1. Inicio 
+2. Se pide al usuario ingresar la cantidad de trajes a comprar
+3. Se pide al usuario ingresar el precio unitario de los trajes 
+4. Se calcula el subtotal por pagar multiplicando la cantidad de trajes por el precio unitario
+5. Si el número de trajes a comprar es 1 se hace el descuento de el 20%
+6. Si el número de trajes a comprar es 2 se hace el descuento de el 25%
+7. Si el número de trajes a comprar es 3 se hace el descuento de el 40%
+8. Si el número de trajes a comprar es superior a 3 se hace el descuento de el 50%
+9. De acuerdo a el número de trajes a comprar se determina el descuento aplicado 
+10. El resultado de el subtotal menos el descuento es igual al total a pagar
+11. Se muestra en pantalla el subtotal a pagar
+12. Se muestra en pantalla el descuento aplicado
+13. Se muestra en pantalla el total a pagar
+14. Fin 
+
+Miniespecificación 
+1. Inicio 
+2. cant_trajes, i[0, n]
+3. precio, d[0, n]
+4. descuento, d[0, n] <-- 0
+5. porcentaje1, d[0, n] <-- 20
+6. porcentaje2, d[0, n] <-- 25
+7. porcentaje3, d[0, n] <-- 40 
+8. porcentaje4, d[0, n] <-- 50
+9. subtotal, d[0, n] 
+10. total_pagar, d[0, n] <-- 0
+
+11. Escribir "Ingrese la cantidad de trajes a comprar"
+12. Leer cant_trajes
+13. Escribir "Ingrese el precio unitario de el traje"
+14. Leer precio 
+15. subtotal <-- cant_trajes * precio 
+16. Si cant_trajes == 1 Entonces
+17. 	descuento <-- (subtotal * porcentaje1)/100
+18.	total_pagar <-- subtotal - descuento 
+19. De lo contrario 
+20. 	Si cant_trajes == 2 Entonces
+21. 		descuento <-- (subtotal * porcentaje2)/100
+22.		total_pagar <-- subtotal - descuento 
+23.	De lo contrario 
+24.		Si cant_trajes == 3 Entonces
+25. 			descuento <-- (subtotal * porcentaje3)/100
+26.			total_pagar <-- subtotal - descuento 
+27.		De lo contrario 
+28.			Si cant_trajes >3 Entonces
+29. 				descuento <-- (subtotal * porcentaje4)/100
+30.				total_pagar <-- subtotal - descuento 
+31.			Fin si 
+32. 		Fin si
+33. 	Fin si 
+34. Fin si
+35. Escribir subtotal
+36. Escribir descuento
+37. Escribir total_pagar
+38. Fin 

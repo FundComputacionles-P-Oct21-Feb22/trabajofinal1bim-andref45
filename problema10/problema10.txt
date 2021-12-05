@@ -1,0 +1,27 @@
+Algoritmo
+1. Inicio 
+2. Se pide ingresar un número de datos 
+3. Se suman los datos ingresados y luego se los divide para el total de números ingresados para obtener la media
+4. Se calcula la varianza como resultado de la suma de los números menos el promedio elevado al cuadrado dividido entre el número de datos
+5. Se pregunta al usuario cuando dejar de ingresar números
+6. Fin 
+
+
+Miniespecificación
+1. Inicio 
+2. datos, i [0, n]
+3. media, d[0 n]
+4. varianza, d[0, n] 
+5. contador, i[0, n] <-- 1
+6. salida, x(20){[a-z], [BS]}
+7. cadena, (10000)[{0-9},{BS, /}] <-- ""
+
+8. Haga
+9. 	Escribir "Ingrese un valor"
+10.	Leer datos
+11.	media <-- (datos  + cadena)/ contador
+12. 	cadena <-- cadena, datos
+13.	varianza <-- ((cadena - media)^2)/contador
+14. 	contador <-- contador + 1
+15. Fin Haga_hasta (salida != si) 
+16. Fin 	

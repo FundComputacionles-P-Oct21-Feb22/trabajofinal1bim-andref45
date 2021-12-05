@@ -1,0 +1,35 @@
+Algoritmo
+1. Inicio 
+2. Se pide asignar un valor para x 
+3. Se pide asignar un valor para y
+4. Si el valor de "x" es mayor a 0 y el valor de "y" es mayor a 0 la coordenada se encuentra en el primer cuadrante 
+5. Si el valor de "x" es menor a 0 y el valor de "y" es mayor a 0 la coordenada se encuentra en el segundo cuadrante
+6. Si el valor de "x" es menor a 0 y el valor de "y" es menor a 0 la coordenada se encuentra en el tercer cuadrante
+7. Si el valor de "x" es mayor a 0 y el valor de "y" es menor a 0 la coordenada se encuentra en el cuarto cuadrante
+8. Fin 
+
+
+Miniespecificación
+1. Inicio 
+2. x, i[0, n]
+3. y, i[0, n]
+4. Escribir "Ingrese el valor para x"
+5. Leer x
+6. Escribir "Ingrese el valor para y"
+7. Leer y
+8. Si x > 0 and y > 0 Entonces
+9.	Escribir "La coordenada se encuentra en el primer cuadrante"
+10. De lo contrario 
+11.  	Si x < 0 and y > 0 Entonces 
+12.		Escribir "La coordenada se encuentra en el segundo cuadrante"
+13.	De lo contrario 
+14. 		Si x < 0 and y < 0 Entonces
+15. 			Escribir "La coordenada se encuentra en el tercer cuadrante"
+16. 		De lo contrario 
+17.			Si x > 0 and y < 0 Entonces
+18. 				Escribir "La coordenada se encuentra en el cuarto cuadrante"
+19.			Fin si 
+20.		Fin si 
+21. 	Fin si 
+22. Fin si 
+23. Fin 

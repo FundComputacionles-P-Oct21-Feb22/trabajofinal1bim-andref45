@@ -1,0 +1,35 @@
+Algoritmo
+1. Inicio 
+2. Se pide al usuario ingresar 3 números diferentes 
+3. Se verifica que los números sean diferentes 
+4. Se muestra en pantalla el número mayor de entre los 3 
+5. Fin 
+
+
+Miniespecificación 
+1. Inicio 
+2. n1, i[0, n]
+3. n2, i [0, n]
+4. n3, i[0, n]
+
+5. Escribir "Ingrese el valor del número 1"
+6. Leer n1
+7. Escribir "Ingrese el valor del número 2"
+8. Leer n2
+9. Escribir "Ingrese el valor del número 3"
+10. Leer n3
+11. Si n1 == n2 or n1 == n3 or n2 == n3 Entonces
+12. 	 Escribir "Se ha producido un error"
+13. Fin si 
+14. Si n1 > n2 and n1 > n3 Entonces 
+15. 	Escribir "El mayor es: " + n1
+16. De lo contrario
+17. 	Si n2 > n1 and n2 > n3 Entonces
+18. 		Escribir "El mayor es: " + n2
+19. 	De lo contrario 
+20. 		Escribir "El mayor es: " + n3
+21.	Fin si 
+22. Fin si 
+23. Fin 
+
+23. Fin 

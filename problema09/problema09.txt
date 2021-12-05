@@ -1,0 +1,15 @@
+1. Inicio 
+2. valores, i [0, n]
+3. serie,(10000)[{0-9},{BS, /}] <-- ""		// 12−11+24−22+36−33+48−44
+4. contador, i [0, n] <-- 1
+5. k, i[0, n] 
+6. Escribir "Ingrese el valor correspondiente a k"
+7. Leer k
+8. Haga_hasta 
+9. 	Escribir "Agregue un valor a la serie"
+10. 	Leer valores
+11. 	serie <-- serie, valores
+12. 	contador <-- contador + 1
+13. Fin Haga_hasta contador <= k 
+14. Escribir serie 
+15. Fin 

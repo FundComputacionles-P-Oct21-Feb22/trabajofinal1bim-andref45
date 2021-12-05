@@ -1,0 +1,37 @@
+1. Inicio
+2. nombre, x(50)[{A-z], {a-z}, {BS}]
+3. tipo_empleado, x(20)[{A-z], {a-z}, {BS}]
+4. horas, d[0 ,n]
+5. cuota, d[0, n] <-- 0
+6. sueldo, d[0, n] <-- 0
+7. sueldo_base, d[0, n] <-- 400 
+
+8. Escribir "Ingrese su nombre"
+9. Leer nombre
+10. Escribir "Ingrese el tipo de empleado"
+11. Leer tipo_empleado
+12. Escribir "Ingrese el número de horas trabajadas"
+13. Leer horas 
+14. Escribir "Ingrese la cuota que se le paga por hora"
+15. Leer cuota
+
+16. Si tipo_empleado == "tipo 1" and horas > 40 Entonces 
+17. 	cuota <-- 1.5
+18.	sueldo <-- sueldo_base + (hora * cuota)
+19. De lo contrario
+20. 	Si tipo_empleado == "tipo 2" and horas > 40 Entonces 
+21. 		cuota <-- 2
+22.		sueldo <-- sueldo_base + (hora * cuota)
+23.	De lo contrario
+24. 		Si tipo_empleado == "tipo 3" and horas > 40 Entonces 
+25. 			cuota <-- 2.5
+26.			sueldo <-- sueldo_base + (hora * cuota)
+27.			De lo contrario 
+28. 			Si tipo_empleado == "tipo 4" and horas > 40 Entonces 
+29. 				cuota <-- 3
+30.				sueldo <-- sueldo_base + (hora * cuota)
+31.			Fin si 
+32.		Fin si 	
+33.	Fin si 
+34. Fin si
+35. Escribir sueldo  

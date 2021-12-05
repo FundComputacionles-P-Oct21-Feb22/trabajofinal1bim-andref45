@@ -1,0 +1,17 @@
+1. Inicio 
+2. num, i[0, n]
+3. nu, i [0, n]
+4. suma, i[0, n] <-- 0
+5. Escribir "Ingrese un número"
+6. Leer num 
+7. Para (nu <-- 2, nu <= num, 2) haga
+8. 	Si num MOD 2 == 0 and num > 2 Entonces
+10.		suma <-- suma + nu
+11.	De lo contrario
+12. 		Si num < 2 Entonces
+13.			Escribir "Ha ocurrido un error"
+14.		Fin si 
+15.	Fin si 
+16. Fin_Para
+17. Escribir suma 
+18. Fin 

@@ -1,0 +1,37 @@
+Algoritmo
+1. Inicio 
+2. Se pide al usuario ingresar el valor de los ángulos de un triángulo
+3. Se lee el valor de cada ángulo del triángulo
+4. Si el valor de uno de los ángulos es igual a 90° es un triángulo rectángulo
+5. Si tiene un ángulo mayor o igual a 90° y menor a 180° es un triángulo obtuso 
+6. Si sus 3 ángulos son menores a 90° entonces es un triángulo acutángulo
+7. Se muestra en pantalla el tipo de triángulo 
+8. Fin
+
+Miniespecificación 
+1. Inicio 
+2. angulo1, i[0, n]
+3. angulo2, i[0, n] 
+4. angulo3, i[0, n]
+5. tipo_triangulo, x(30)[{a-z}, {A-z}, {BS}] <-- ""
+
+6. Escribir "Ingrese el valor de el ángulo 1"
+7. Leer angulo1
+8. Escribir "Ingrese el valor de el ángulo 2"
+9. Leer angulo2
+10. Escribir "Ingrese el valor de el ángulo 3"
+11. Leer angulo3
+
+12. Si angulo1 == 90 or angulo2 == 90 or angulo3 == 90 Entonces 
+13. 	tipo_triangulo <-- "Triángulo Rectángulo"
+14. De lo contrario 
+15.	Si angulo1 > 90 and angulo1 <180 or angulo2 > 90 and angulo2 <180 or angulo3 > 90 and angulo3 <180 Entonces
+16. 		tipo_triangulo <-- "Triángulo Obtusángulo"
+17. 	De lo contrario 
+18. 		Si angulo1 < 90 or angulo2 < 90 or angulo3 < 90 Entonces 
+19.			tipo_triangulo <-- "Triángulo Acutángulo"
+20.		Fin si
+21. 	Fin si 
+21. Fin si 
+22. Escribir tipo_triangulo
+23. Fin

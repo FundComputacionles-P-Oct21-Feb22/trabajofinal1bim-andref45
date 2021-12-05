@@ -1,0 +1,32 @@
+1. Inicio 
+2. metros, d[0, n] <-- 0
+3, yardas, d[0, n] <-- 0
+4. yardas_metros, d[0, n] <-- 0
+5. pulgadas, d[0,n] <-- 0
+6. pulgadas_metros, d[0, n] <-- 0
+7. pies, d[0, n] <-- 0
+8. pies_metros, d[0, n] <-- 0
+9, n, i [0, n]
+10. x, i[0, n] <-- 1
+11. cadena,(10000)[{0-9},{BS, /}] <-- "" 
+12. cadena2,(10000)[{0-9},{BS, /}] <-- "" 
+
+13. //1 metros <--- 1.09361 yardas
+14. //1 metros <-- 39.3701 pulgadas
+15. //1 metros <-- 3.28084 pies 
+
+16. Escribir "Ingrese el valor de metros a transformar"
+17. Leer n 
+18. Mientras x <= n Entonces 
+19. 	x <-- metros
+20.  	yardas_metros <-- 1.09361 * x 
+21. 	pulgadas_metros <-- 39.3701 * x
+22.	pies_metros <-- 3.28084 * x 
+	cadena <-- "Metros"+ "Yardas" + "Pulgadas" + "Pies"
+23. 	cadena2 <-- cadena + metros + yardas_metros + pulgadas_metros + pies_metros\n
+24. 	x <-- x + 1
+25. Fin mientras
+26. Escribir cadena
+27. Escribir cadena2
+28. Fin 
+
